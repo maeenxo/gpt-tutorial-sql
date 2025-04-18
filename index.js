@@ -276,7 +276,7 @@ const toysWithManuals = await Toy.findAll({
 toysWithManuals.forEach(toy => {
   if (toy.Manual) {
     console.log(`✅ ${toy.name} has a manual.`);
-  } else {
+   } else {
     console.log(`❌ ${toy.name} has no manual.`);
   }
 });
@@ -300,3 +300,5 @@ toysWithManuals.forEach(toy => {
     await sequelize.close();
   }
 })();
+
+console.log('👋 Goodbye 12!');
