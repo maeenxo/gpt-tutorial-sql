@@ -301,4 +301,4 @@ toysWithManuals.forEach(toy => {
   }
 })();
 
-console.log('👋 Goodbye 12!');
+console.log('👋 Goodbye 13!');
